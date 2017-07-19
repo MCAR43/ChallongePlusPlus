@@ -14,7 +14,6 @@ class Challonge {
 public:
   Challonge(const std::string api_key, const std::string username) {API_KEY = api_key; USERNAME = username;
                                                                     CHALLONGE_URL = "https://" + USERNAME + ":" + API_KEY  + "@api.challonge.com/v1/";}
-  std::string parseJSON(const std::string toParse);
   Tournament Tournament;
   Match Match;
   Participants Participants;
