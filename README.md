@@ -2,7 +2,9 @@
 CH++ is a C++ Wrapper for the Challonge API!
 # Requirements
  --[Curl for People!](https://github.com/whoshuu/cpr) and it's dependencies
+
  --[JSON for modern C++](https://github.com/nlohmann/json)
+ 
  --C++11 compatible compiler
 # Usage
 ```C++

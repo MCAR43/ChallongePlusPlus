@@ -28,6 +28,7 @@
 *.app
 
 # CMake
+CMakeLists.txt
 CMakeCache.txt
 CMakeFiles
 Makefile
@@ -36,3 +37,8 @@ install_manifest.txt
 
 # Custom
 build/
+appveyor.yml
+.travis.yml
+.gitignore
+.gitmodules
+
