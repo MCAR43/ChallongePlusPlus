@@ -13,7 +13,7 @@ CH++ is a C++ Wrapper for the Challonge API!
 #include <json.hpp>
 int main(){
     //Initialize a challonge! object with your APIKEY and credentials!
-    Challonge testOjbect("APIKEY","USERNAME");
+    Challonge testObject("APIKEY","USERNAME");
     //Tournament Functions
     //Retrieves a JSON object of all tournaments associated with your account
     testObject.Tournament.index();
